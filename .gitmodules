@@ -1,0 +1,3 @@
+[submodule "ParadigmScheme"]
+	path = ParadigmScheme
+	url = https://github.com/Innokentii-Smirnov/ParadigmScheme.git
