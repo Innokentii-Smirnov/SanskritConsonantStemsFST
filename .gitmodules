@@ -13,3 +13,6 @@
 [submodule "corpora/UD_Sanskrit-Vedic"]
 	path = corpora/UD_Sanskrit-Vedic
 	url = https://github.com/UniversalDependencies/UD_Sanskrit-Vedic.git
+[submodule "TestMorph"]
+	path = TestMorph
+	url = https://github.com/Innokentii-Smirnov/TestMorph.git
