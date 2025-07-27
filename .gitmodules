@@ -1,3 +1,6 @@
 [submodule "ParadigmScheme"]
 	path = ParadigmScheme
 	url = https://github.com/Innokentii-Smirnov/ParadigmScheme.git
+[submodule "SanskritMorphonologyFST"]
+	path = SanskritMorphonologyFST
+	url = https://github.com/Innokentii-Smirnov/SanskritMorphonologyFST.git
