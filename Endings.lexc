@@ -1,0 +1,37 @@
+Multichar_Symbols +Sing +Dual +Plur +Nom +Acc +Ins +Dat +Abl +Gen +Loc
+
+LEXICON Root
++Sing+Nom:0     #;
++Sing+Acc:-am   #;
++Sing+Ins:-ā    #;
++Sing+Dat:-e    #;
++Sing:-aḥ       AblGen;
++Sing+Loc:-i    #;
++Dual:-au       NomAcc;
++Dual:-bhyām    InsDatAbl;
++Dual:-oḥ       GenLoc;
++Plur:-aḥ       NomAcc;
++Plur+Ins:-bhiḥ #;
++Plur:-bhyaḥ    DatAbl;
++Plur+Gen:-ām   #;
++Plur+Loc:-su   #;  
+
+LEXICON AblGen
++Abl:0  #;
++Gen:0  #;
+
+LEXICON NomAcc
++Nom:0  #;
++Acc:0  #;
+
+LEXICON InsDatAbl
++Ins:0  #;
+DatAbl;
+
+LEXICON GenLoc
++Gen:0  #;
++Loc:0  #;
+
+LEXICON DatAbl
++Dat:0  #;
++Abl:0  #;

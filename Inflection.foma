@@ -1,0 +1,3 @@
+read lexc Endings.lexc
+define Endings;
+define Inflection ?* Endings;
