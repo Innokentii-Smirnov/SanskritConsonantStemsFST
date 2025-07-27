@@ -4,3 +4,6 @@
 [submodule "SanskritMorphonologyFST"]
 	path = SanskritMorphonologyFST
 	url = https://github.com/Innokentii-Smirnov/SanskritMorphonologyFST.git
+[submodule "MorphTestData"]
+	path = MorphTestData
+	url = https://github.com/Innokentii-Smirnov/MorphTestData.git
