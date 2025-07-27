@@ -1,3 +1,7 @@
 read lexc Endings.lexc
 define Endings;
-define Inflection ?* Endings;
+load stack SanskritMorphonologyFST/InternalSandhi.bin
+define InternalSandhi;
+define Exponence ?* Endings;
+define Cleanup "-" -> 0 || _ ;
+define Inflection Exponence .o. Cleanup .o. InternalSandhi;

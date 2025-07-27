@@ -1,4 +1,4 @@
-Multichar_Symbols +Sing +Dual +Plur +Nom +Acc +Ins +Dat +Abl +Gen +Loc
+Multichar_Symbols +Sing +Dual +Plur +Nom +Acc +Ins +Dat +Abl +Gen +Loc bh
 
 LEXICON Root
 +Sing+Nom:0     #;
