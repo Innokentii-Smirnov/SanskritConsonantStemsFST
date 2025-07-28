@@ -1,2 +1,4 @@
 *.bin
+out.txt
+test_result
 README.pdf
