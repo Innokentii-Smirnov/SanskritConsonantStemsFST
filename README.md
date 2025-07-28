@@ -5,8 +5,8 @@ compile Inflection
 inflect vāc
 apply
 evaluate
-```cmd
-Or, alternatively, simply
 ```
+Or, alternatively, simply
+```cmd
 test
 ```
