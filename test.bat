@@ -1,1 +1,1 @@
-flookup -i -x Inflection.bin < test_data\in.txt > out.txt
+flookup -i Inflection.bin < test_data\in.txt > out.txt
