@@ -3,4 +3,6 @@
 compile_morphonology
 compile Inflection
 inflect vāc
+test
+evaluate
 ```
