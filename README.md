@@ -3,6 +3,10 @@
 compile_morphonology
 compile Inflection
 inflect vāc
-test
+apply
 evaluate
+```cmd
+Or, alternatively, simply
+```
+test
 ```

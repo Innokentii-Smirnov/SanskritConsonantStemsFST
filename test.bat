@@ -1,1 +1,4 @@
-flookup -i Inflection.bin < test_data\in.txt > out.txt
+@echo off
+call compile Inflection
+call apply
+call evaluate
