@@ -1,10 +1,10 @@
 read lexc StemAllomorphy.lexc
-define StemAllomoprhy;
+define StemAllomorphy;
 read lexc Endings.lexc
 define Endings;
 load stack SanskritMorphonologyFST/InternalSandhi.bin
 define InternalSandhi;
-define StemFormation ?* StemAllomoprhy .P. ?*;
+define StemFormation ?* StemAllomorphy .P. ?*;
 define Exponence ?* Endings;
 define Cleanup "-" -> 0 || _ ;
 define Inflection StemFormation .o. Exponence .o. Cleanup .o. InternalSandhi;
