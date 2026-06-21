@@ -1,0 +1,11 @@
+Multichar_Symbols +Sing +Dual +Plur +Nom +Acc +Ins +Dat +Abl +Gen +Loc
+
+Definitions
+  Number = %+Sing|%+Dual|%+Plur;
+  Oblique = %+Ins|%+Dat|%+Abl|%+Gen|%+Loc;
+
+LEXICON Root
+ant:at  Weak;
+
+LEXICON Weak
+<Number Oblique | %+Plur %+Acc> #;
