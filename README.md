@@ -8,6 +8,7 @@ apply
 evaluate
 ```
 Note: +NOUN is added as the part of speech in compile.bat
+
 Or, alternatively, simply
 ```cmd
 test
