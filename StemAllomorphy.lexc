@@ -2,10 +2,23 @@ Multichar_Symbols +Sing +Dual +Plur +Nom +Acc +Ins +Dat +Abl +Gen +Loc
 
 Definitions
   Number = %+Sing|%+Dual|%+Plur;
+  Direct = %+Nom|%+Acc;
   Oblique = %+Ins|%+Dat|%+Abl|%+Gen|%+Loc;
 
 LEXICON Root
 ant:at  Weak;
+ivans:ivāṃs Strong;
+ivans:ivat  Middle;
+ivans:uṣ   Weakest;
+
+LEXICON Strong
+<Number Direct - %+Plur %+Acc> #;
 
 LEXICON Weak
 <Number Oblique | %+Plur %+Acc> #;
+
+LEXICON Middle
+<[%+Dual | %+Plur] [%+Ins | %+Dat | %+Abl] | %+Plur %+Loc> #;
+
+LEXICON Weakest
+<%+Sing Oblique | %+Dual [%+Gen | %+Loc] | %+Plur [%+Acc | %+Gen]> #;
